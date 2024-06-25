@@ -6,7 +6,7 @@ const conn=mongoose.connect("mongodb://localhost:27017/rahul")
 
 const demo=mongoose.Schema({
   username:String,
-  age:Number
+ password:String
 })
 
 
